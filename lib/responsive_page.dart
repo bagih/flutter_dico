@@ -34,3 +34,6 @@ class ResponsivePage extends StatelessWidget {
     );
   }
 }
+
+// sebenarnya ada LayoutBuilder tapi karena saya test device nya android dan agak susah
+// terlihat perbedaannya maka saya tidak write codenya

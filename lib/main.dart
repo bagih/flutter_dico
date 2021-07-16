@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dico/codelab_main_screen.dart';
 // import 'package:flutter_dico/expandedflexible.dart';
 // import 'package:flutter_dico/navigation.dart';
-import 'package:flutter_dico/responsive_page.dart';
+// import 'package:flutter_dico/responsive_page.dart';
 // import 'package:flutter_dico/codelab1.dart';
 // import 'package:flutter_dico/listview_page.dart';
 // import 'package:flutter_dico/image.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.teal),
       title: "Dico Train",
-      home: ResponsivePage(),
+      home: MainScreen(),
     );
   }
 }
